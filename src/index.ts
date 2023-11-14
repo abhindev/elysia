@@ -12,7 +12,7 @@ const app = new Elysia();
 app.use(
   cors() //{ origin: 'heee.com'}
 );
-app.get("",()=>"Elysia")
+app.get("",()=>"Elysia new")
 app.use((app) => groupRouter(app, "groups"));
 app.listen(3001);
 
